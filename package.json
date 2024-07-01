@@ -1,0 +1,25 @@
+{
+  "name": "earl-language-support",
+  "displayName": "EARL Language Support",
+  "description": "Language support for EARL",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "earl",
+      "aliases": ["EARL", "earl"],
+      "extensions": [".earl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "earl",
+      "scopeName": "source.earl",
+      "path": "./syntaxes/earl.tmLanguage.json"
+    }]
+  }
+}

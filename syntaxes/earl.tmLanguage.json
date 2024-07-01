@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "EARL",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#member_intrinsics"
+		},
+		{
+			"include": "#attributes"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.earl",
+					"match": "\\b(if|else|while|for|return|match|some|none|print|let|mod|import|fn|len|open|when|class|constructor|this|in)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.earl",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.earl",
+					"match": "\\\\."
+				}
+			]
+		},
+		"member_intrinsics": {
+			"patterns": [
+				{
+					"name": "support.function.earl",
+					"match": "\\b\\w+\\.\\w+\\b"
+				}
+			]
+		},
+		"attributes": {
+			"patterns": [
+				{
+					"name": "variable.other.attribute.earl",
+					"match": "(?<=@)\\w+\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.earl"
+}
