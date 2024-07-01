@@ -1,21 +1,24 @@
 # earl-language-support README
 
+The is the Visual Studio Code extension for EARL
+
 ## Features
 
-TODO
+Syntax Highlighting
 
 ## Requirements
 
-TODO
+Because this extension is not yet on the VSCode Marketplace, it must be installed manually.
 
-## Known Issues
+First get vsce
+```
+npm install -g @vscode/vsce
+```
 
-TODO
+Then in `EARL-language-support/` run: `vsce package`.
 
-## Release Notes
+This will create `earl-language-support-0.0.1.vsix`
 
-TODO
+Then open VSCode and open the extensions tab, click the three elipses, then click "install from vsix"
 
-### 1.0.0
-
-TODO
+Then navigate to the `earl-language-support-0.0.1.vsix` and click it.
