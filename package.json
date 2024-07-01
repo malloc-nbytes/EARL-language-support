@@ -3,6 +3,7 @@
   "displayName": "EARL Language Support",
   "description": "Language support for EARL",
   "version": "0.0.1",
+  "repository": "https://github.com/malloc-nbytes/EARL-language-support.git",
   "engines": {
     "vscode": "^1.90.0"
   },
