@@ -1,6 +1,6 @@
-# earl-language-support README
+# earl-language-support
 
-The is the Visual Studio Code extension for EARL
+This is the Visual Studio Code extension for EARL
 
 ## Features
 
