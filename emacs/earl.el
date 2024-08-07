@@ -46,7 +46,7 @@
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input"
       "some" "unwrap" "argv" "exit"
-      "panic"
+      "panic" "fprintln" "fprint"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
       "__internal_ls__"
