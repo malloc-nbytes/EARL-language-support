@@ -5,7 +5,7 @@ endif
 set iskeyword=a-z,A-Z,-,*,_,!,@
 
 " Language keywords
-syntax keyword EARLKeywords len println if if* else while for import fn return assert print in let class pub world ref mod constructor this true false none some match __internal_move__ fprintln fprint
+syntax keyword EARLKeywords len println if if* else while for import fn return assert print in let class pub world ref mod constructor this true false none some match __internal_move__ fprintln fprint enum
 
 " Comments
 syntax region EARLCommentLine start="#" end="$"

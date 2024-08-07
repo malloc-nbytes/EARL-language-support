@@ -41,7 +41,7 @@
       "str" "for" "fn" "return" "break"
       "struct" "char" "import" "in" "mod"
       "class" "true" "false" "none" "match"
-      "when" "constructor" "this"
+      "when" "constructor" "this" "enum"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input"
