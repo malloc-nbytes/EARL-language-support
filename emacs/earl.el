@@ -42,7 +42,8 @@
       "struct" "char" "import" "in" "module"
       "class" "true" "false" "none" "match"
       "when" "constructor" "this" "enum"
-      "full" "almost"
+      "full" "almost" "float" "tuple" "list"
+      "bool"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input"
