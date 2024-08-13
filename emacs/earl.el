@@ -1,11 +1,10 @@
 ;; Earl mode
 (defconst earl-mode-syntax-table
   (with-syntax-table (copy-syntax-table)
-    (modify-syntax-entry ?- ". 124b")
+    (modify-syntax-entry ?- "w")
     (modify-syntax-entry ?* ". 23")
     (modify-syntax-entry ?\n "> b")
-    (modify-syntax-entry ?' "\"")
-    (modify-syntax-entry ?' ".")
+    (modify-syntax-entry ?# "< b")
     (syntax-table))
   "Syntax table for `earl-mode'.")
 
