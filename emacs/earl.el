@@ -70,6 +70,7 @@
       ;; Stdlib Modules
       "IO" "List" "Math" "Stack" "Utils"
       "Str" "Tree" "Set" "Queue" "OS"
+      "Char" "CSV"
       )))
 
 (defconst earl-highlights
