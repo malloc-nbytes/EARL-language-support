@@ -5,6 +5,8 @@
     (modify-syntax-entry ?* ". 23")
     (modify-syntax-entry ?\n "> b")
     (modify-syntax-entry ?# "< b")
+    (modify-syntax-entry ?\' "\"")        ; Single quote for character literals
+    (modify-syntax-entry ?\\ "\\")        ; Backslash for escape sequences
     (syntax-table))
   "Syntax table for `earl-mode'.")
 
