@@ -24,6 +24,11 @@ Navigate to the `EARL-language-support/vim` directory. In there is a file called
 
 Because this extension is not yet on the VSCode Marketplace, it must be installed manually.
 
+#### Using the prepackaged .vsix file
+Locate the earl-language-support-<version>.vsix file in the root of the repository. Open VSCode and navigate to the Extensions tab. Click the three dots in the top right corner and select "Install from VSIX". Navigate to the earl-language-support-<version>.vsix file and click it.
+
+#### Building the .vsix file
+
 First get vsce
 ```
 npm install -g @vscode/vsce
