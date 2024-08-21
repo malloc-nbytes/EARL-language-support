@@ -5,7 +5,7 @@ endif
 set iskeyword=a-z,A-Z,-,*,_,!,@
 
 " Language keywords
-syntax keyword EARLKeywords break continue len println if if* else while for import fn return assert print in let class pub world ref module constructor this true false none some match __internal_move__ fprintln fprint enum almost full int float tuple list bool to Char CSV IO SinglyLL List Math OS Queue Set Stack Str Utils type typeof Dict continue
+syntax keyword EARLKeywords break continue len println if if* else while for foreach import fn return assert print in let class pub world ref module constructor this true false none some match __internal_move__ fprintln fprint enum almost full int float tuple list bool to Char CSV IO SinglyLL List Math OS Queue Set Stack Str Utils type typeof Dict continue
 
 " Comments
 syntax region EARLCommentLine start="#" end="$"
