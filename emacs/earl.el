@@ -44,28 +44,17 @@
       "class" "true" "false" "none" "match"
       "when" "constructor" "this" "enum"
       "full" "almost" "float" "tuple" "list"
-      "bool" "to"
+      "bool" "to" "continue"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input"
-      "some" "unwrap" "argv" "exit"
+      "some" "argv" "exit"
       "panic" "fprintln" "fprint"
       "typeof" "Dict"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
       "__internal_ls__"
       ;; list member intrinsics
-      "rev" "nth" "append" "pop"
-      "filter" "foreach" "back"
-      ;; str member intrinsics
-      "split" "remove_lines" "substr"
-      ;; char member intrinsics
-      "ascii"
-      ;; file member intrinsics
-      "read" "close" "dump" "write"
-      "writelines"
-      ;; option member intrinsics
-      "is_none" "is_some"
       ;; function attributes
       "world" "pub" "ref"
       ;; Stdlib Modules
