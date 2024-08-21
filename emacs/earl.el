@@ -39,7 +39,7 @@
 (eval-and-compile
   (defconst earl-keywords
     '("if" "else" "while" "let" "void" "int"
-      "str" "for" "fn" "return" "break"
+      "str" "for" "foreach" "fn" "return" "break"
       "struct" "char" "import" "in" "module"
       "class" "true" "false" "none" "match"
       "when" "constructor" "this" "enum"
