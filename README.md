@@ -20,6 +20,22 @@ Navigate to the `EARL-language-support/vim` directory. In there is a file called
 1. Put the file into `~/.vim/syntax/`
 2. In your `.vimrc`, put the following: `autocmd BufRead,BufNewFile *.earl set filetype=earl`
 
+### NeoVim
+
+Navigate to the `EARL-language-support/vim` directory. In there is a file called `earl.vim`.
+
+1. Put this file into `~/.config/nvim/syntax`
+2. In your `init.lua`, put the following:
+
+```bash
+vim.cmd [[
+  augroup filetype_earl
+    autocmd!
+    autocmd BufRead,BufNewFile *.earl set filetype=earl
+  augroup END
+]]
+```
+
 ### VScode
 
 Because this extension is not yet on the VSCode Marketplace, it must be installed manually.
