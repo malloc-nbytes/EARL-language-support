@@ -56,7 +56,7 @@
       "__internal_ls__"
       ;; list member intrinsics
       ;; function attributes
-      "world" "pub" "ref"
+      "world" "pub" "ref" "const"
       ;; Stdlib Modules
       "IO" "List" "Math" "Stack" "Utils"
       "Str" "Tree" "Set" "Queue" "OS"
