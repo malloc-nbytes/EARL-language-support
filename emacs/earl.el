@@ -59,8 +59,8 @@
       "world" "pub" "ref" "const"
       ;; Stdlib Modules
       "IO" "List" "Math" "Stack" "Utils"
-      "Str" "Tree" "Set" "Queue" "OS"
-      "Char" "CSV"
+      "Str" "Tree" "Set" "Queue" "System"
+      "Char" "CSV" "Encryption"
       )))
 
 (defconst earl-highlights
