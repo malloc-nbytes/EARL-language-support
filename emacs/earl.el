@@ -50,7 +50,7 @@
       "type" "unimplemented" "input"
       "some" "argv" "exit"
       "panic" "fprintln" "fprint"
-      "typeof" "Dict"
+      "typeof" "Dict" "warn"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
       "__internal_ls__"
