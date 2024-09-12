@@ -6,7 +6,7 @@ This is the language support for Emacs, Vim, and VSCode.
 
 Syntax Highlighting
 
-## Requirements
+## Installation
 
 ### Emacs
 Navigate to the `EARL-language-support/emacs` directory. In there is a file called `earl.el`.
