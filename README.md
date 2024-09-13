@@ -6,7 +6,7 @@ This is the language support for Emacs, Vim, and VSCode.
 
 Syntax Highlighting
 
-## Requirements
+## Installation
 
 ### Emacs
 Navigate to the `EARL-language-support/emacs` directory. In there is a file called `earl.el`.
@@ -40,10 +40,10 @@ vim.cmd [[
 
 Because this extension is not yet on the VSCode Marketplace, it must be installed manually.
 
-#### Using the prepackaged .vsix file
+#### Option 1: Using the prepackaged .vsix file
 Locate the earl-language-support-version.vsix file in vscode/. Open VSCode and navigate to the Extensions tab. Click the three dots in the top right corner and select "Install from VSIX". Navigate to the earl-language-support-version.vsix file and click it.
 
-#### Building the .vsix file
+#### Option 2: Building the .vsix file
 
 First get vsce
 ```
