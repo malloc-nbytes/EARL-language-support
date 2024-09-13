@@ -20,7 +20,7 @@
                         "patterns": [
                                 {
                                         "name": "keyword.control.earl",
-                                        "match": "\\b(if|else|while|for|foreach|break|continue|return|match|some|none|print|println|warn|panic|exit|let|module|import|fn|len|open|when|class|constructor|this|in|__internal_move__|fprintln|fprint|enum|almost|full|int|float|tuple|list|bool|to|Char|CSV|IO|SinglyLL|List|Math|System|Encryption|Queue|Set|Stack|Str|Utils|type|typeof|Dict|const|true|false|option|file)\\b"
+                                        "match": "\\b(if|else|while|for|foreach|break|continue|return|match|some|none|print|println|warn|panic|exit|let|module|import|fn|len|open|when|class|constructor|this|in|__internal_move__|fprintln|fprint|enum|almost|full|int|float|tuple|list|bool|to|Char|CSV|IO|SinglyLL|List|Math|System|Encryption|Queue|Set|Stack|Str|Utils|type|typeof|Dict|const|true|false|option|file|unit)\\b"
                                 }
                         ]
                 },
