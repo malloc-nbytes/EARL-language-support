@@ -44,7 +44,7 @@
       "class" "true" "false" "none" "match"
       "when" "constructor" "this" "enum"
       "full" "almost" "float" "tuple" "list"
-      "bool" "to" "continue"
+      "bool" "to" "continue" "option" "file"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input"
