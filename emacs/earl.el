@@ -51,7 +51,7 @@
       "type" "unimplemented" "input"
       "some" "argv" "exit"
       "panic" "fprintln" "fprint"
-      "typeof" "Dict" "warn"
+      "typeof" "Dict" "warn" "sleep" "datetime"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
       "__internal_ls__"
@@ -61,7 +61,7 @@
       ;; Stdlib Modules
       "IO" "List" "Math" "Stack" "Utils"
       "Str" "Tree" "Set" "Queue" "System"
-      "Char" "CSV" "Encryption"
+      "Char" "CSV" "Encryption" "Matrix"
       )))
 
 (defconst earl-highlights
