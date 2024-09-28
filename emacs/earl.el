@@ -49,7 +49,7 @@
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input"
-      "some" "argv" "exit"
+      "some" "argv" "exit" "env"
       "panic" "fprintln" "fprint"
       "typeof" "Dict" "warn" "sleep" "datetime"
       ;; private intrinsic functions
