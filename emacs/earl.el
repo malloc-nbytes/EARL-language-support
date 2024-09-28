@@ -45,7 +45,8 @@
       "when" "constructor" "this" "enum"
       "full" "almost" "float" "tuple" "list"
       "bool" "to" "continue" "option" "file"
-      "unit" "real" "any" "as"
+      "unit" "real" "any" "as" "dictionary"
+      "loop" "closure"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input"
