@@ -49,9 +49,9 @@
       "loop" "closure"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
-      "type" "unimplemented" "input"
-      "some" "argv" "exit" "env"
-      "panic" "fprintln" "fprint"
+      "type" "unimplemented" "input" "help"
+      "some" "argv" "exit" "env" "init_seed"
+      "panic" "fprintln" "fprint" "random"
       "typeof" "Dict" "warn" "sleep" "datetime"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
