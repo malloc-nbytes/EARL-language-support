@@ -53,6 +53,7 @@
       "some" "argv" "exit" "env" "init_seed"
       "panic" "fprintln" "fprint" "random"
       "typeof" "Dict" "warn" "sleep" "datetime"
+      "set_flag" "unset_flag"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
       "__internal_ls__"
