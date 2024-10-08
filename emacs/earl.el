@@ -60,6 +60,7 @@
       ;; list member intrinsics
       ;; function attributes
       "world" "pub" "ref" "const"
+      "experimental"
       ;; Stdlib Modules
       "IO" "List" "Math" "Stack" "Utils"
       "Str" "Tree" "Set" "Queue" "System"
