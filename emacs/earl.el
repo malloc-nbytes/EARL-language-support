@@ -61,6 +61,8 @@
       ;; function attributes
       "world" "pub" "ref" "const"
       "experimental"
+      ;; builtin idents
+      "__FILE__" "__FUNC__" "__OS__" "__MODULE__"
       ;; Stdlib Modules
       "IO" "List" "Math" "Stack" "Utils"
       "Str" "Tree" "Set" "Queue" "System"
