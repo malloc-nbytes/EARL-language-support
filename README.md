@@ -18,7 +18,7 @@ of the file inside of `~/.emacs.d/init.el` to have `earl-mode` always available.
 Navigate to the `EARL-language-support/vim` directory. In there is a file called `earl.vim`.
 
 1. Put the file into `~/.vim/syntax/`
-2. In your `.vimrc`, put the following: `autocmd BufRead,BufNewFile *.earl set filetype=earl`
+2. In your `.vimrc`, put the following: `autocmd BufRead,BufNewFile *.rl set filetype=earl`
 
 ### NeoVim
 
@@ -31,7 +31,7 @@ Navigate to the `EARL-language-support/vim` directory. In there is a file called
 vim.cmd [[
   augroup filetype_earl
     autocmd!
-    autocmd BufRead,BufNewFile *.earl set filetype=earl
+    autocmd BufRead,BufNewFile *.rl set filetype=earl
   augroup END
 ]]
 ```

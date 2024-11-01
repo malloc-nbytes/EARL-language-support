@@ -14,7 +14,7 @@
     "languages": [{
       "id": "earl",
       "aliases": ["EARL", "earl"],
-      "extensions": [".earl"],
+      "extensions": [".rl"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{

@@ -46,7 +46,7 @@
       "full" "almost" "float" "tuple" "list"
       "bool" "to" "continue" "option" "file"
       "unit" "real" "any" "as" "dictionary"
-      "loop" "closure" "use" "exec"
+      "loop" "closure" "use" "exec" "case" "of"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input" "help"
@@ -85,7 +85,7 @@
   (setq-local standard-indent 2))
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.earl\\'" . earl-mode))
+(add-to-list 'auto-mode-alist '("\\.rl\\'" . earl-mode))
 
 (provide 'earl-mode)
 ;; End Earl mode
