@@ -47,7 +47,7 @@
       "bool" "to" "continue" "option" "file"
       "unit" "real" "any" "as" "dictionary"
       "loop" "closure" "use" "exec" "case" "of"
-      "with"
+      "with" "cd"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input" "help"
