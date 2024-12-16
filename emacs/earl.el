@@ -47,7 +47,7 @@
       "bool" "to" "continue" "option" "file"
       "unit" "real" "any" "as" "dictionary"
       "loop" "closure" "use" "exec" "case" "of"
-      "with" "cd" "bind"
+      "with" "bind"
       ;; intrinsic functions
       "print" "println" "assert" "len" "open"
       "type" "unimplemented" "input" "help"
@@ -55,7 +55,7 @@
       "panic" "fprintln" "fprint" "random"
       "typeof" "Dict" "warn" "sleep" "datetime"
       "set_flag" "unset_flag" "cos" "sin" "observe"
-      "copy"
+      "copy" "cd" "Regex"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
       "__internal_ls__"
