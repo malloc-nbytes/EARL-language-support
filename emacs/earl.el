@@ -56,6 +56,7 @@
       "typeof" "Dict" "warn" "sleep" "datetime"
       "set_flag" "unset_flag" "cos" "sin" "observe"
       "copy" "cd" "Regex" "persist" "persist_lookup" "persist_del"
+      "format"
       ;; private intrinsic functions
       "__internal_move__" "__internal_mkdir__"
       "__internal_ls__"
